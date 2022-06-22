@@ -1,0 +1,60 @@
+/*propiedades de las descripciones de productos*/
+article {
+    text-align: center;
+    font-size: 30px;
+    margin: 100px;
+}
+
+p {
+    color: rgb(167, 71, 130);
+    font-size: 30px;
+    font-family: 'Bebas Neue';
+
+}
+
+
+/*propiedades de las imagenes-productos*/
+
+.imagenDos {
+    width: 150px;
+    height: 250px;
+    margin: 20px;
+}
+
+.imagenIndex {
+    width: 150px;
+    height: 250px;
+    margin: 30px;
+    margin-left: 60px;
+    border: solid 15px #f9d29d;
+    transition: all 2s;
+}
+
+.imagenIndex:hover {
+    width: 225px;
+    height: 375px;
+}
+
+
+
+.ofertas {
+    width: 370px; 
+    height: 190px; 
+    margin:40px;
+   
+
+}
+
+.imagenContacto {
+    width: 350px;
+    height: 250px;
+    
+}
+.consulta {
+    width: 420px;
+    height: 260px;
+}
+.emailNombre {
+    width:400px;
+    height: 20px;
+}

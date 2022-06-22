@@ -1,0 +1,73 @@
+/*fuente de letra*/
+
+@import "tipografia";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.promo {
+   width: 150px;
+   height: 240px;
+
+
+}
+/*index*/
+body {
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-invierno-hojas-pinceles-color-pastel_220290-42.jpg?w=2000");
+    nav {
+        text-align: center;
+        font-size: 30px;
+        a{
+            color: rgb(126, 99, 177);
+            text-decoration: none;
+            font-family: 'Bebas Neue';
+        }
+        span {
+    
+            margin: 35px;
+            padding: 10px 20px;
+            margin-top: 0px;
+        
+        }   
+    }
+    
+    h3 {
+        color: rgb(99, 63, 81);
+    
+        font-size: 35px;
+        font-family: 'Bebas Neue';
+        text-align: center;
+        padding: 50px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        background-image: url(https://www.arquitecturaydiseno.es/medio/2022/03/19/apertura-macrame_84504a26_1280x794.jpg);
+        background-position: 60px;
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+    
+
+
+
+}
+
+/*OTRA PAGINA*/ 
+h6 {
+    color: rgb(216, 84, 128);
+    font-size: 30px;
+    font-family: 'Bebas Neue';
+    margin-left: 100px;
+    padding: 50px;
+
+}
+/*********/
+
+@import "responsive";
+@import "productos-descript";
+
+
+
